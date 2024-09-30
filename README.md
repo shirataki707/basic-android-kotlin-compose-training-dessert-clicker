@@ -2,6 +2,30 @@ Dessert Clicker app
 =====================
 
 Code for Android Basics with Compose Codelab.
+[Codelab](https://developer.android.com/codelabs/basic-android-kotlin-compose-activity-lifecycle?continue=https://developer.android.com/courses/pathways/android-basics-compose-unit-4-pathway-1?hl%3Dja%23codelab-https://developer.android.com/codelabs/basic-android-kotlin-compose-activity-lifecycle#6)
+
+Screenshot
+----------
+
+Learn
+-----
+- Lifecycle
+  - onCreate
+    - Activityが作成されるとき
+  - onRestart
+    - ActivityがonStop状態から再開されるとき
+  - onStart
+    - Activityが表示されるとき
+  - onResume
+    - Activityがフォーカスを持っているとき
+  - onPause
+    - Activityの一部が見えているが、フォーカスがないとき(共有ボタンを押した時とか)
+  - onStop
+    - アプリがバックグラウンドに移動したとき
+  - onDestroy
+    - アプリを終了するとき
+    - Configuration changes(Localの変更、画面の回転など)でも呼ばれる
+    - Configuration ChangesのときにComposableの状態を保持するには、rememberSavableを使う
 
 Introduction
 ------------
