@@ -6,9 +6,11 @@ Code for Android Basics with Compose Codelab.
 
 Screenshot
 ----------
+<img src="https://github.com/user-attachments/assets/241876db-3df5-4069-be20-8c9b8209500b" width="300">
 
 Learn
 -----
+![lifecycle](https://github.com/user-attachments/assets/aedb4f6b-84b5-4935-801f-0acc8ba32a4b)
 - Lifecycle
   - onCreate
     - Activityが作成されるとき
